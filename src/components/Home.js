@@ -8,7 +8,7 @@ const Home = () => {
         <h3>Hi!</h3>
         <h1>This is Home 🏚</h1>
       </div>
-      <ul className="links">
+      <ul className="links" >
           <li><Link to='/beers'>Beers</Link></li>
           <li><Link to='/randombeer'>Random Beer</Link></li>
           <li><Link to='/newbeer'>New Beer</Link></li>

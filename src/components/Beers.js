@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 class Beers extends Component {
 
@@ -26,7 +27,7 @@ class Beers extends Component {
         <div className="Beers">
         {this.state.beers.map(beer => 
         <span key={beer._id}>
-        <h3>{beer.name}</h3>
+        <h3><Link to={`/beers/${beer._id}`}>{beer.name}</Link></h3>
         <h5>{beer.tagline}</h5>
         <h6>Created by: {beer.tagline}</h6>
         <img src={beer.image_url} alt="beer"/>
