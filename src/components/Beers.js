@@ -25,12 +25,12 @@ class Beers extends Component {
         </header>
         <div className="Beers">
         {this.state.beers.map(beer => 
-        <div>
+        <span key={beer._id}>
         <h3>{beer.name}</h3>
         <h5>{beer.tagline}</h5>
         <h6>Created by: {beer.tagline}</h6>
         <img src={beer.image_url} alt="beer"/>
-        </div>)}
+        </span>)}
         </div>
         </div>
       );
