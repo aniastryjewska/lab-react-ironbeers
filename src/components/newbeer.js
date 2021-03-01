@@ -4,9 +4,9 @@ import Navbar from './Navbar';
 const newbeer = () => {
     return (
         <div>
-        <div>
+        <header>
           <Navbar/>
-        </div>
+        </header>
          <div>
             Welcome to New Beer Page
             </div>

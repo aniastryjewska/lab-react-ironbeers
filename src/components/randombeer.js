@@ -4,9 +4,9 @@ import Navbar from './Navbar';
 const randombeer = () => {
   return (
     <div>
-    <div>
-      <Navbar/>
-    </div>
+     <header>
+          <Navbar/>
+     </header>
      <div>
         Welcome to Random Beer Page
         </div>
